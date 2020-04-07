@@ -24,12 +24,10 @@
             <a-sky src="#paveljoen"></a-sky>
 
             <a-entity position="0 1.6 0" camera look-controls wasd-controls cursor="rayOrigin: mouse"></a-entity>
-
-
             <a-entity position="0 0 -5">
-                <a-entity id="myBtn1" geometry="primitive: sphere;  radius: 1.5; " rotation="0 0 0" position="0 0 -3" material="src: #logo" content="title:Welkom bij het Wachterliedpaviljoen!; content:Dit is de demo voor de digitale VR omgeving; image: img/logo.jpg; imageAlignment:right">
+                <a-entity id="myBtn1" geometry="primitive: sphere;  radius: 1.5; " rotation="0 0 0" position="0 0 -3" material="src: #logo" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000" content="title:Welkom bij het Wachterliedpaviljoen!; content:Dit is de demo voor de digitale VR omgeving; image: img/logo.jpg; imageAlignment:right">
                 </a-entity>
-            </a-entity>
+                </!DOCTYPE>
         </a-scene>
         <div id="textModal" class="modal ">
             <span id="closeBtn" class="close">&times;</span>
