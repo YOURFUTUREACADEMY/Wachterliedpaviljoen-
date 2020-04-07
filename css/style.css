@@ -1,0 +1,78 @@
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    border-radius: 10px;
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #f1f1f1;
+    padding: 1% 1% 1% 1%;
+    margin: 15% auto;
+    display: block;
+    width: 55%;
+    border: 1px;
+    border-radius: 10px;
+}
+
+/* The Close Button */
+
+.close {
+    position: absolute;
+    top: 27%;
+    left: 78%;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    display: none;
+    background-color: #000;
+    border-radius: 50%;
+    text-align: center;
+    width: 2.5%;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    max-width: 75%;
+    height: auto;
+}
+
+.flex-box{
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-flow: row; /* Safari 6.1+ */
+    display: flex;
+    flex-direction: row;
+    min-height: 50%;
+    align-content: stretch;
+}
+
+#text {
+    -webkit-flex-basis: 55%; /* Safari 6.1+ */
+    flex-basis: 55%;
+    padding-left: 10px;
+}
+#image {
+    -webkit-flex-basis: 45%; /* Safari 6.1+ */
+    flex-basis: 45%;
+}
